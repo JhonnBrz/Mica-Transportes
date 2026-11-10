@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# configuração local do ambiente de desenvolvimento (caminhos da máquina)
+.claude/
+
+# vídeo-fonte duplicado: o site usa assets/hero/hero.mp4 (idêntico)
+assets/hero/original/
+
+# segredos, caso algum dia sejam adicionados
+.env
+.env.*
+*.pem
+*.key
